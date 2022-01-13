@@ -117,14 +117,14 @@ p {
 .icon-1 {
   width: 45px;
   height: 45px;
-  filter: invert(76%) sepia(30%) saturate(3461%) hue-rotate(321deg)
-    brightness(98%) contrast(91%);
+  filter: invert(96%) sepia(90%) saturate(3461%) hue-rotate(321deg)
+    brightness(78%) contrast(71%);
   /* text-align: center; */
 }
 .icon-2 {
   width: 45px;
   height: 45px;
-  filter: invert(76%) sepia(30%) saturate(3461%) hue-rotate(321deg)
+  filter: invert(76%) sepia(90%) saturate(3461%) hue-rotate(321deg)
     brightness(98%) contrast(91%);
   /* text-align: center; */
 }
@@ -292,23 +292,28 @@ Jobs
     margin-left: 22vw;
     width: 35px;
     height: 35px;
-    filter: invert(10%) sepia(90%) saturate(3461%) hue-rotate(321deg)
-      brightness(38%) contrast(31%);
+    filter: grayscale(95%);
     /* text-align: center; */
   }
   .icon-2 {
     width: 35px;
     height: 35px;
-    filter: invert(10%) sepia(90%) saturate(3461%) hue-rotate(321deg)
-      brightness(38%) contrast(31%);
+    filter: grayscale(95%);
     /* text-align: center; */
   }
   .icon-3 {
     margin-right: 22vw;
     width: 35px;
     height: 35px;
-    filter: invert(10%) sepia(90%) saturate(3461%) hue-rotate(321deg)
-      brightness(38%) contrast(31%);
+    filter: grayscale(95%);
     /* text-align: center; */
+  }
+
+  .icon-1:hover,
+  .icon-2:hover,
+  .icon-3:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
   }
 }

@@ -67,10 +67,7 @@ function Experience() {
         >
           <img src={LinkedInIcon} alt="linkedIn" className="icon-1"></img>
         </a>
-        <a
-          href="https://www.linkedin.com/in/artur-krauze-55a5541ba/"
-          target="_blank"
-        >
+        <a href="https://github.com/apkrauze" target="_blank">
           <img src={GithubIcon} alt="linkedIn" className="icon-2"></img>
         </a>
         <a
