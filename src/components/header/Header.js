@@ -5,7 +5,6 @@ function Header() {
   return (
     <section className="section">
       <div className="header">
-        <p>Hi there, my name is</p>
         <h5>Artur</h5>
         <div className="underline"></div>
       </div>
