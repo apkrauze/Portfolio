@@ -165,7 +165,8 @@ p {
 /* section */
 .section {
   width: 90vw;
-  margin: 5rem auto;
+  /* margin: 5rem auto; */
+  margin-top: 400px;
   max-width: var(--max-width);
   background-color: var(--clr-white);
 }
@@ -189,6 +190,7 @@ p {
   margin-right: auto;
 }
 .title {
+  margin-top: 6rem;
   margin-bottom: 4rem;
   text-align: center;
 }

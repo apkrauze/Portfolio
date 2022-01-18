@@ -5,11 +5,17 @@ import data from "./experienceData";
 import LinkedInIcon from "./icons/linkedin.png";
 import GithubIcon from "./icons/github.png";
 import DownArrowIcon from "./icons/down-arrow.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Experience() {
   const [loading, setLoading] = useState(true);
   const [jobs, setJobs] = useState([]);
   const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
 
   const getJobs = async () => {
     await setJobs(data);
@@ -27,10 +33,14 @@ function Experience() {
   }
   const { company, dates, duties, title } = jobs[value];
   return (
-    <section className="section">
+    <section className="section" data-aos="zoom-in-up" data-aos-easing="linear">
       <div className="title">
         <h2>experience</h2>
-        <div className="underline"></div>
+        <div
+          data-aos="zoom-in-up"
+          data-aos-easing="linear"
+          className="underline"
+        ></div>
       </div>
       <div className="jobs-center">
         <div className="btn-container">

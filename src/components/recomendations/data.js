@@ -11,7 +11,7 @@ const recomendations = [
     name: "andjelija kaludjerovic",
     job: "fullstack developer",
     image: "https://i.postimg.cc/V6DDy4xT/Andjelija.jpg",
-    text: "Here comes some text what Andje is going to write about me , now its just a template so I hope it's going to look nice.",
+    text: "Artur is well organized, concise and someone you can always count on! What really impressed me was Artur’s out-of-the-box thinking, discipline, and agility in working with our team on a daily basis. Having enjoyed our collaboration very much, I can only look forward to us working together again.",
   },
   {
     id: 3,

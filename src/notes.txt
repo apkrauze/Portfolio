@@ -1,0 +1,4 @@
+Check the buttons on the back side of flipped card
+Create a header 
+Create "about"
+Footer with contact me and email icon 

@@ -90,9 +90,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-/* .container {
-  margin-bottom: ;
-} */
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -140,6 +138,7 @@ main {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 .title {
   text-align: center;
@@ -149,17 +148,19 @@ main {
   height: 0.25rem;
   width: 5rem;
   background: var(--clr-primary-5);
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
 .container {
+  margin-top: -150px;
   width: 80vw;
   max-width: var(--fixed-width);
 }
 .review {
-  background: var(--clr-white);
+  background: var(--clr-grey-10);
   padding: 1.5rem 2rem;
-  margin-top: -13rem;
+  margin-top: -16rem;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);

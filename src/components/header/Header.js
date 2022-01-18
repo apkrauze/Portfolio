@@ -5,7 +5,7 @@ function Header() {
   return (
     <section className="section">
       <div className="header">
-        <h5>Artur</h5>
+        <h1>welcome to my page</h1>
         <div className="underline"></div>
       </div>
     </section>

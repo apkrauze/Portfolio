@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import people from "./data";
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 import "./index.css";
+// animation sliders on underline
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Recomendations = () => {
   const [index, setIndex] = useState(0);
   const { name, job, image, text } = people[index];
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   const checkNumber = (number) => {
     if (number > people.length - 1) {
       return 0;
@@ -36,11 +44,15 @@ const Recomendations = () => {
   };
 
   return (
-    <main>
+    <main data-aos="zoom-in-up" data-aos-easing="linear">
       <section className="container">
         <div className="title">
-          <h2>few words about</h2>
-          <div className="underline"></div>
+          <h2>some words about me</h2>
+          <div
+            data-aos="zoom-in-up"
+            data-aos-easing="linear"
+            className="underline"
+          ></div>
         </div>
       </section>
       <article className="review">
@@ -61,9 +73,9 @@ const Recomendations = () => {
             <FaChevronRight />
           </button>
         </div>
-        <button className="random-btn" onClick={randomPerson}>
+        {/* <button className="random-btn" onClick={randomPerson}>
           surprise me
-        </button>
+        </button> */}
       </article>
     </main>
   );
