@@ -27,7 +27,7 @@ function FlashCard({ flashcard }) {
           })}
           <button className="btn">
             <a href="https://github.com/apkrauze" target="_blank">
-              lalal
+              Live view
             </a>
           </button>
         </div>
