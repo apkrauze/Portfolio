@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 10px;
+  margin: 30px;
   border: 6px solid var(--clr-primary-5);
   width: 280px;
   height: 280px;
@@ -58,7 +58,7 @@
   justify-content: center;
   align-items: center;
   width: 160px;
-  margin: 10vw 0 0 5vw;
+  margin: 6vw 0 0 5vw;
   text-transform: uppercase;
   color: var(--clr-grey-5);
   background: var(--clr-grey-9);
@@ -68,16 +68,36 @@
 .back-description {
   margin-top: 10px;
   width: 200px;
+  margin-bottom: 1px;
 }
 .back-option {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0rem;
   margin-bottom: 0.2rem;
   color: var(--clr-grey-5);
 }
 .job-icon-projects {
   color: var(--clr-primary-4);
+}
+.back-btn {
+  text-transform: uppercase;
+  background: var(--clr-primary-8);
+  color: hsl(210, 36%, 96%);
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  font-weight: 700;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 0.5rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: block;
+  width: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0rem;
 }
 
 @media screen and (min-width: 992px) {

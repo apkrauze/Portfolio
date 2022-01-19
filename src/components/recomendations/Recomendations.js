@@ -11,7 +11,7 @@ const Recomendations = () => {
   const { name, job, image, text } = people[index];
 
   useEffect(() => {
-    Aos.init({ duration: 3000 });
+    Aos.init({ duration: 2000 });
   }, []);
 
   const checkNumber = (number) => {

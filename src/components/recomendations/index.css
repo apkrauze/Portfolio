@@ -234,7 +234,7 @@ main {
 .next-btn:hover {
   color: var(--clr-primary-5);
 }
-.random-btn {
+/* .random-btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
@@ -257,4 +257,4 @@ main {
 .random-btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
-}
+} */

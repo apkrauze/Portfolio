@@ -85,7 +85,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-.btn {
+/* .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
@@ -108,7 +108,7 @@ p {
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
-}
+} */
 .icons {
   margin-top: 25vw;
   display: flex;
@@ -117,22 +117,19 @@ p {
 .icon-1 {
   width: 45px;
   height: 45px;
-  filter: invert(96%) sepia(90%) saturate(3461%) hue-rotate(321deg)
-    brightness(78%) contrast(71%);
+  filter: grayscale(95%);
   /* text-align: center; */
 }
 .icon-2 {
   width: 45px;
   height: 45px;
-  filter: invert(76%) sepia(90%) saturate(3461%) hue-rotate(321deg)
-    brightness(98%) contrast(91%);
+  filter: grayscale(95%);
   /* text-align: center; */
 }
 .icon-3 {
   width: 45px;
   height: 45px;
-  filter: invert(76%) sepia(30%) saturate(3461%) hue-rotate(321deg)
-    brightness(98%) contrast(91%);
+  filter: grayscale(95%);
   /* text-align: center; */
 }
 
@@ -216,6 +213,7 @@ Jobs
 .job-btn {
   background: transparent;
   border-color: transparent;
+  color: var(--clr-grey-1);
   text-transform: capitalize;
   font-size: 1.25rem;
   letter-spacing: var(--spacing);

@@ -3,6 +3,7 @@ import Experience from "./components/experience/Experience";
 import Recomendations from "./components/recomendations/Recomendations";
 import Header from "./components/header/Header";
 import FlashCardList from "./components/flashcardsList/FlashCardList";
+import Footer from "./components/footer/Footer";
 import SAMPLE_FLASHCARDS from "./components/flashcardsList/data";
 import "./app.css";
 
@@ -15,6 +16,7 @@ function App() {
       <FlashCardList flashcards={flashcards} />
       <Experience />
       <Recomendations />
+      <Footer />
     </div>
   );
 }

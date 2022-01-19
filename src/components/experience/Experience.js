@@ -4,18 +4,13 @@ import "./index.css";
 import data from "./experienceData";
 import LinkedInIcon from "./icons/linkedin.png";
 import GithubIcon from "./icons/github.png";
-import DownArrowIcon from "./icons/down-arrow.png";
-import Aos from "aos";
+import CVIcon from "./icons/cv.png";
 import "aos/dist/aos.css";
 
 function Experience() {
   const [loading, setLoading] = useState(true);
   const [jobs, setJobs] = useState([]);
   const [value, setValue] = useState(0);
-
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
 
   const getJobs = async () => {
     await setJobs(data);
@@ -84,7 +79,7 @@ function Experience() {
           href="https://www.linkedin.com/in/artur-krauze-55a5541ba/"
           target="_blank"
         >
-          <img src={DownArrowIcon} alt="linkedIn" className="icon-3"></img>
+          <img src={CVIcon} alt="linkedIn" className="icon-3"></img>
         </a>
       </div>
       {/* <button type="button" className="btn">
