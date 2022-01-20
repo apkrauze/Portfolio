@@ -1,4 +1,5 @@
 import React from "react";
+import email from "./icon/email.png";
 import "./footer.css";
 
 function Footer() {
@@ -9,9 +10,17 @@ function Footer() {
         <div className="underline"></div>
         <img
           className="contact-image"
-          src="https://i.postimg.cc/MpmKrYg9/Screenshot-2022-01-19-at-12-55-26.png"
+          src="https://i.postimg.cc/4xbFdLrz/Artur.jpg"
           alt="profile"
         ></img>
+        <div className="contact-icons">
+          <a
+            href="https://www.linkedin.com/in/artur-krauze-55a5541ba/"
+            target="_blank"
+          >
+            <img src={email} alt="email" className="email-icon"></img>
+          </a>
+        </div>
       </div>
     </section>
   );

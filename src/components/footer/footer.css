@@ -25,3 +25,15 @@
   height: 200px;
   width: 200px;
 }
+.contact-icon {
+  margin-top: 25vw;
+}
+.email-icon {
+  position: absolute;
+  top: 75%;
+  left: 44%;
+  width: 45px;
+  height: 45px;
+  color: var(--clr-primary-5);
+  filter: grayscale(95%);
+}
