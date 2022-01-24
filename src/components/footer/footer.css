@@ -32,8 +32,8 @@
   position: absolute;
   top: 75%;
   left: 44%;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   color: var(--clr-primary-5);
   filter: grayscale(95%);
 }

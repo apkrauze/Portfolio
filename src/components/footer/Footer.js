@@ -14,10 +14,7 @@ function Footer() {
           alt="profile"
         ></img>
         <div className="contact-icons">
-          <a
-            href="https://www.linkedin.com/in/artur-krauze-55a5541ba/"
-            target="_blank"
-          >
+          <a href="mailto:apkrauze@gmail.com" target="_blank">
             <img src={email} alt="email" className="email-icon"></img>
           </a>
         </div>
