@@ -6,7 +6,9 @@ function Header() {
   return (
     <section className="section-header">
       <div className="header">
-        <h1>Hi, I'm Artur</h1>
+        <h1>
+          Hi,<br></br> I'm Artur
+        </h1>
         <div className="header-underline"></div>
         {/* <img
           className="header-image"

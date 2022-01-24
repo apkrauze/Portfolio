@@ -1,14 +1,14 @@
-h1,
-h4 {
+h1 {
   letter-spacing: var(--spacing);
-  line-height: 1.25;
+  line-height: 1.55;
   margin-bottom: 0.75rem;
 }
 h1 {
   text-transform: capitalize;
-
-  font-size: 4.5rem;
-  text-align: center;
+  font-size: 4.05rem;
+  text-align: justify;
+  text-align-last: right;
+  /* text-align: center; */
 
   color: var(--clr-primary-10);
 }
@@ -25,7 +25,7 @@ h1 {
 .header h1 {
   position: absolute;
   top: 20%;
-  left: 30%;
+  left: 25%;
 }
 .header h4 {
   position: absolute;
@@ -59,28 +59,28 @@ h1 {
   top: 33.5%;
   left: 28%;
   animation-name: example;
-  animation-duration: 1s;
+  animation-duration: 4.5s;
 }
 @keyframes example {
   0% {
     background-color: var(--clr-primary-6);
-    left: 0px;
-    top: 33.5%;
+    left: -250px;
+    top: 0%;
   }
   25% {
     background-color: var(--clr-primary-7);
-    left: 20px;
-    top: 33.5%;
+    left: 80px;
+    top: 89%;
   }
   50% {
     background-color: var(--clr-primary-8);
     left: 40px;
-    top: 33.5%;
+    top: 78%;
   }
   75% {
     background-color: var(--clr-primary-9);
-    left: 70px;
-    top: 33.5%;
+    left: 85px;
+    top: 50%;
   }
   100% {
     background-color: var(--clr-primary-8);

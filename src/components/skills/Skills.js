@@ -1,32 +1,42 @@
 import React from "react";
-import { FaJsSquare, FaHtml5, FaAws, FaCss3Alt } from "react-icons/fa";
-import { SiExpress, SiTypescript, SiFirebase } from "react-icons/si";
+import "./skills.css";
+import {
+  FaJsSquare,
+  FaHtml5,
+  FaAws,
+  FaCss3Alt,
+  FaReact,
+  FaNodeJs,
+  FaFigma,
+} from "react-icons/fa";
+import { SiExpress, SiTypescript, SiFirebase, SiRedux } from "react-icons/si";
 
 function Skills() {
   return (
-    <main data-aos="zoom-in-up" data-aos-easing="linear">
-      <section className="container">
-        <div className="title">
-          <h2>Skills</h2>
-          <div
-            data-aos="zoom-in-up"
-            data-aos-easing="linear"
-            className="underline"
-          ></div>
-        </div>
-      </section>
-      <section className="icon-container">
-        <div className="job-icon">
-          <FaJsSquare />
-          <FaHtml5 />
-          <FaAws />
-          <FaCss3Alt />
-          <SiExpress />
-          <SiTypescript />
-          <SiFirebase />
-        </div>
-      </section>
-    </main>
+    <section className="section" data-aos="zoom-in-up" data-aos-easing="linear">
+      <div className="title">
+        <h2>Skills</h2>
+        <div
+          data-aos="zoom-in-up"
+          data-aos-easing="linear"
+          className="underline"
+        ></div>
+      </div>
+
+      <div className="icons-skills">
+        <FaJsSquare className="icon-skills-1" />
+        <FaHtml5 className="icon-skills-2" />
+        <FaAws className="icon-skills-3" />
+        <FaCss3Alt className="icon-skills-4" />
+        <SiExpress className="icon-skills-5" />
+        <SiTypescript className="icon-skills-6" />
+        <SiFirebase className="icon-skills-7" />
+        <FaReact className="icon-skills-8" />
+        <SiRedux className="icon-skills-9" />
+        <FaNodeJs className="icon-skills-10" />
+        <FaFigma className="icon-skills-11" />
+      </div>
+    </section>
   );
 }
 

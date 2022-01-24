@@ -12,14 +12,14 @@
   justify-content: center;
   align-items: center;
   /* margin-top: 20vw; */
-  padding-top: 70vw;
+  padding-top: 60vw;
   color: var(--clr-primary-1);
 }
 
 .contact-image {
   border: solid 3px var(--clr-primary-5);
   position: absolute;
-  top: 45%;
+  top: 41%;
   left: 23%;
   border-radius: 50%;
   height: 200px;
@@ -30,10 +30,10 @@
 }
 .email-icon {
   position: absolute;
-  top: 75%;
-  left: 44%;
-  width: 55px;
-  height: 55px;
+  top: 70%;
+  left: 41%;
+  width: 65px;
+  height: 65px;
   color: var(--clr-primary-5);
   filter: grayscale(95%);
 }
