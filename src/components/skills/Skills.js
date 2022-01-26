@@ -26,12 +26,12 @@ function Skills() {
       <div className="icons-skills">
         <FaJsSquare className="icon-skills-1" />
         <FaHtml5 className="icon-skills-2" />
-        <FaAws className="icon-skills-3" />
+        <FaReact className="icon-skills-3" />
         <FaCss3Alt className="icon-skills-4" />
-        <SiExpress className="icon-skills-5" />
+        <FaAws className="icon-skills-5" />
         <SiTypescript className="icon-skills-6" />
         <SiFirebase className="icon-skills-7" />
-        <FaReact className="icon-skills-8" />
+        <SiExpress className="icon-skills-8" />
         <SiRedux className="icon-skills-9" />
         <FaNodeJs className="icon-skills-10" />
         <FaFigma className="icon-skills-11" />

@@ -6,10 +6,8 @@ h1 {
 h1 {
   text-transform: capitalize;
   font-size: 4.05rem;
-  text-align: justify;
-  text-align-last: right;
+  text-align: right;
   /* text-align: center; */
-
   color: var(--clr-primary-10);
 }
 
@@ -40,14 +38,7 @@ h1 {
   /* border: solid 1px var(--clr-primary-5); */
   width: 300px;
 }
-.header-image {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  position: absolute;
-  top: 80%;
-  left: 30%;
-}
+
 .header-underline {
   height: 0.85rem;
   width: 15rem;
@@ -101,27 +92,80 @@ h1 {
   top: 150%;
   left: 20%;
 }
-.btn {
-  text-transform: uppercase;
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
-  padding: 0.375rem 0.75rem;
-  letter-spacing: var(--spacing);
-  font-weight: 700;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  font-size: 0.875rem;
-  border: 2px solid transparent;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: var(--radius);
-  display: block;
-  width: 12rem;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 3rem;
+
+/* .section {
+  width: 90vw;
+} */
+@media screen and (min-width: 600px) {
+  .header-underline {
+    height: 1rem;
+    width: 20rem;
+    top: 35%;
+    left: 15%;
+    animation-name: none;
+  }
 }
-.btn:hover {
-  color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+
+@media screen and (min-width: 992px) {
+  h1 {
+    line-height: 1.65;
+    width: 60%;
+  }
+  div .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header h1 {
+    top: 30%;
+  }
+
+  .header-underline {
+    height: 1.5rem;
+    width: 20rem;
+    top: 45%;
+    left: 61.5%;
+    animation-name: none;
+  }
+
+  .header-paragraph {
+    width: 600px;
+    margin-top: 10rem;
+  }
+
+  /* .section-header {
+    width: 100vw;
+  } */
+}
+
+@media screen and (min-width: 1024px) {
+  .header-underline {
+    height: 1.3rem;
+    width: 20rem;
+    top: 45%;
+    left: 52%;
+    animation-name: none;
+  }
+  .header .quote-icon {
+    position: absolute;
+    top: 78%;
+    left: 6%;
+  }
+  .header-paragraph {
+    line-height: 1.35;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-underline {
+    height: 1.6rem;
+    width: 28rem;
+    top: 45%;
+    left: 52%;
+    animation-name: none;
+  }
+  .header-paragraph {
+    line-height: 1.45;
+  }
 }

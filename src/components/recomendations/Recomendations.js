@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import people from "./data";
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
-import "./index.css";
+import "./recomendation.css";
 // animation sliders on underline
 import Aos from "aos";
 import "aos/dist/aos.css";

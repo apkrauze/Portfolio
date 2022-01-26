@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 function FlashCardList({ flashcards }) {
   return (
-    <section data-aos="zoom-in-up" data-aos-easing="linear">
+    <section className="section" data-aos="zoom-in-up" data-aos-easing="linear">
       <div className="title">
         <h2>my projects</h2>
         <p>

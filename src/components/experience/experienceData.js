@@ -6,8 +6,8 @@ const data = [
     dates: "September 2020 - December 2020",
     duties: [
       "Beggining my professional coding journey with AW Academy gave me a solid backround and I was able just after 3 months to create my own functioning websites",
-      "During these 3 intense months I practiced some of the  most important parts of JavaScript. I had a posibilty to create some small projects with Angular, Vue and bigger with React.",
-      "Everyday was challenging with new things to learn but it just made me more and more interested in coding",
+      "During these 3 intense months I practiced some of the  most important parts of JavaScript. I had the posibilty to create some small projects with Angular, Vue and bigger with React.",
+      "Challenging tasks and an intense work schedule, while working in a team have given me real world work experience",
     ],
     company: "AW Academy",
   },

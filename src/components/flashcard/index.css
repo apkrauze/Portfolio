@@ -103,7 +103,7 @@
 @media screen and (min-width: 992px) {
   .card-grid {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-top: 5vw;
   }
@@ -117,5 +117,33 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+  }
+
+  .back-title {
+    margin: 12px 0 0 20px;
+    background: var(--clr-white);
+  }
+  .back-description {
+    margin-bottom: 3px;
+  }
+  .back-option {
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+  }
+  .back-btn {
+    text-transform: uppercase;
+    background: var(--clr-primary-8);
+    padding: 0.5rem 0.9rem;
+    font-size: 0.6rem;
+    width: 8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card-grid {
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
