@@ -75,11 +75,8 @@ function Experience() {
         <a href="https://github.com/apkrauze" target="_blank">
           <img src={GithubIcon} alt="linkedIn" className="icon-2"></img>
         </a>
-        <a
-          href="https://www.linkedin.com/in/artur-krauze-55a5541ba/"
-          target="_blank"
-        >
-          <img src={CVIcon} alt="linkedIn" className="icon-3"></img>
+        <a href="https://i.postimg.cc/ht15Hqjj/cv.png" target="_blank">
+          <img src={CVIcon} alt="cv" className="icon-3"></img>
         </a>
       </div>
       {/* <button type="button" className="btn">

@@ -16,16 +16,16 @@ const recomendations = [
   {
     id: 3,
     name: "vidar langaas",
-    job: "ceo",
-    image: "",
-    text: "",
+    job: "Founder & Chair at Cruit AS",
+    image: "https://i.postimg.cc/m2w34ZQ0/vidar.jpg",
+    text: "Send an email to Vidar to get more information vidar@cruit.no",
   },
   {
     id: 4,
-    name: "philip nagler",
+    name: "philip nagler-frank",
     job: "teacher at AW Academy Stockholm",
     image: "https://i.postimg.cc/C5WRx2Mw/philip.jpg",
-    text: "",
+    text: "Send an email to Vidar to get more information philip.frank@awacademy.de",
   },
 ];
 

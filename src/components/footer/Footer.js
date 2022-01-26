@@ -28,10 +28,7 @@ function Footer() {
           >
             <img src={LinkedInIcon} alt="linkedIn" className="icon-1"></img>
           </a>
-          <a
-            href="https://www.linkedin.com/in/artur-krauze-55a5541ba/"
-            target="_blank"
-          >
+          <a href="https://i.postimg.cc/ht15Hqjj/cv.png" target="_blank">
             <img src={CVIcon} alt="linkedIn" className="icon-3"></img>
           </a>
           {/* <a

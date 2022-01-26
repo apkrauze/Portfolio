@@ -16,7 +16,12 @@ const data = [
     order: 2,
     title: "Fullstack JavaScript Course",
     dates: "June 2021 - August 2021",
-    duties: ["", "", "", ""],
+    duties: [
+      "With a solid background of the basic web development I decided to confront my front-end skills with back-end, that's why I participated into online fullstack course",
+      "I had a possibility to learn new technics such as ExpressJS",
+      "",
+      "",
+    ],
     company: "Team Treehouse",
   },
   {
