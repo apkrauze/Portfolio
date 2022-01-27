@@ -25,7 +25,7 @@ const recomendations = [
     name: "philip nagler-frank",
     job: "teacher at AW Academy Stockholm",
     image: "https://i.postimg.cc/C5WRx2Mw/philip.jpg",
-    text: "Send an email to Vidar to get more information philip.frank@awacademy.de",
+    text: "Send an email to Philip to get more information philip.frank@awacademy.de",
   },
 ];
 

@@ -286,17 +286,22 @@ Jobs
     margin-left: 22vw;
     width: 35px;
     height: 35px;
+    transition: 0.8s;
     /* text-align: center; */
   }
   .icon-2 {
     width: 35px;
     height: 35px;
+    transition: 0.8s;
+
     /* text-align: center; */
   }
   .icon-3 {
     margin-right: 22vw;
     width: 35px;
     height: 35px;
+    transition: 0.8s;
+
     /* text-align: center; */
   }
 
@@ -304,7 +309,14 @@ Jobs
   .icon-2:hover,
   .icon-3:hover {
     cursor: default;
-    transform: rotate(360deg) scale(2);
-    transition: all 0.3s ease-in-out 0s;
+    transform: scale(2.5);
+    transition: 0.8s;
+    transition-timing-function: ease-in-out 0.8s;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    margin-top: 8rem;
   }
 }

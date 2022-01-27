@@ -6,6 +6,7 @@ const SAMPLE_FLASHCARDS = [
     title: "CoverView19",
     description: "Simple tracker of infected people in the world made with:",
     options: ["React", "RestAPI", "CSS"],
+    links: "https://coverview19.vercel.app",
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const SAMPLE_FLASHCARDS = [
     title: "Katas",
     description: "Webpage with the solutions of popular katas made with:",
     options: ["HTML", "CSS", "JavaScript"],
+    links: "https://github.com/apkrauze/apkrauze.github.io",
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ const SAMPLE_FLASHCARDS = [
     title: "Visualizar",
     description: "AW final project and upcoming killer of Instagram made with:",
     options: ["React", "Firebase/Firestore", "CSS"],
+    links: "https://visualizar-9141e.web.app",
   },
 ];
 

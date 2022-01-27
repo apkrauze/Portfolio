@@ -25,9 +25,10 @@ function FlashCard({ flashcard }) {
               </div>
             );
           })}
+
           <button className="back-btn">
-            <a href="https://github.com/apkrauze" target="_blank">
-              Live view
+            <a href={flashcard.links} target="_blank">
+              Live
             </a>
           </button>
         </div>

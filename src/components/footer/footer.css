@@ -50,6 +50,20 @@
   color: var(--clr-primary-8);
 }
 
+@media screen and (min-width: 768px) {
+  .contact-header h2 {
+    padding-top: 30vw;
+  }
+  .contact-image {
+    top: 41%;
+    left: 36.5%;
+  }
+  .email-icon {
+    top: 73%;
+    left: 45.5%;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .contact-header {
     height: 900px;

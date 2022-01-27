@@ -34,9 +34,23 @@ div .icon-skills-11 {
   margin-right: 7vw;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .icons-skills {
     margin-top: 10vw;
+    margin-bottom: 2vw;
+  }
+  div .icon-skills-9 {
+    margin-left: 19vw;
+  }
+
+  div .icon-skills-11 {
+    margin-right: 19vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .icons-skills {
+    /* margin-top: 10vw; */
     margin-bottom: 15vw;
   }
   div .icon-skills-9 {
