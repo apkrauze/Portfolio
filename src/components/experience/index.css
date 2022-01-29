@@ -179,7 +179,7 @@ p {
 }
 .title {
   margin-top: 6rem;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   text-align: center;
 }
 
