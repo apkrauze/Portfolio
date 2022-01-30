@@ -20,7 +20,7 @@ function Header() {
         </span>
         <h4 className="header-paragraph">
           Once I wrote my first hello world code I fell absolutely in love with
-          programmimg. My hobby became my daily routine and that's how I became
+          programming. My hobby became my daily routine and that's how I became
           a <span className="paragraph-profession">full-stack developer</span>
         </h4>
       </div>

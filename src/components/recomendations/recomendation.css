@@ -160,3 +160,9 @@ main {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
 } */
+
+@media screen and (min-width: 1660px) {
+  .review {
+    margin-top: -20rem;
+  }
+}

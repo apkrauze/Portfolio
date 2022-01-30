@@ -139,3 +139,28 @@
     margin-right: 500px;
   }
 }
+
+@media screen and (min-width: 1660px) {
+  .contact-header h2 {
+    padding-top: 10vw;
+  }
+  .contact-image {
+    height: 250px;
+    width: 250px;
+    top: 45%;
+    left: 42%;
+  }
+  .email-icon {
+    top: 80%;
+    left: 48%;
+  }
+  .contact-icons {
+    margin-top: 430px;
+  }
+  .contact-icons .icon-1 {
+    margin-left: 410px;
+  }
+  .contact-icons .icon-3 {
+    margin-right: 500px;
+  }
+}

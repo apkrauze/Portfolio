@@ -315,8 +315,16 @@ Jobs
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1441px) {
   .title {
     margin-top: 8rem;
+  }
+
+  .icon-1 {
+    margin-right: 7vw;
+  }
+
+  .icon-3 {
+    margin-left: 7vw;
   }
 }

@@ -184,4 +184,7 @@ h1 {
   .header-paragraph {
     line-height: 1.45;
   }
+  div .header {
+    margin-bottom: 200px;
+  }
 }
