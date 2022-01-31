@@ -14,7 +14,7 @@ const SAMPLE_FLASHCARDS = [
     title: "Katas",
     description: "Webpage with the solutions of popular katas made with:",
     options: ["HTML", "CSS", "JavaScript"],
-    links: "https://github.com/apkrauze/apkrauze.github.io",
+    links: "https://simple-katas.netlify.app",
   },
   {
     id: 3,
