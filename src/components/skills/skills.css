@@ -18,7 +18,8 @@ div .icon-skills-1,
 .icon-skills-8,
 .icon-skills-9,
 .icon-skills-10,
-.icon-skills-11 {
+.icon-skills-11,
+.icon-skills-12 {
   color: var(--clr-primary-3);
   width: 80px;
   height: 60px;
@@ -27,11 +28,11 @@ div .icon-skills-1,
 }
 
 div .icon-skills-9 {
-  margin-left: 7vw;
+  margin-left: 4vw;
 }
 
-div .icon-skills-11 {
-  margin-right: 7vw;
+div .icon-skills-12 {
+  margin-right: 0vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,7 +44,7 @@ div .icon-skills-11 {
     margin-left: 19vw;
   }
 
-  div .icon-skills-11 {
+  div .icon-skills-12 {
     margin-right: 19vw;
   }
 }
@@ -57,7 +58,7 @@ div .icon-skills-11 {
     margin-left: 0vw;
   }
 
-  div .icon-skills-11 {
+  div .icon-skills-12 {
     margin-right: 0vw;
   }
 }

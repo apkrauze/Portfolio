@@ -25,6 +25,14 @@ const SAMPLE_FLASHCARDS = [
     options: ["React", "Firebase/Firestore", "CSS"],
     links: "https://visualizar-9141e.web.app",
   },
+  {
+    id: 4,
+    image: "https://i.postimg.cc/gk4SYSmh/pineapple-gda88057a6-1920.jpg",
+    title: "Rooms",
+    description: "Live chatting app with different rooms, made with:",
+    options: ["React", "Express.js", "Sockets.io"],
+    links: "https://github.com/apkrauze/Rooms-ChattingApp",
+  },
 ];
 
 export default SAMPLE_FLASHCARDS;

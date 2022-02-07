@@ -140,19 +140,19 @@
   }
 }
 
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1900px) {
   .contact-header h2 {
     padding-top: 10vw;
   }
   .contact-image {
     height: 250px;
     width: 250px;
-    top: 45%;
-    left: 42%;
+    top: 40%;
+    left: 39%;
   }
   .email-icon {
     top: 80%;
-    left: 48%;
+    left: 47%;
   }
   .contact-icons {
     margin-top: 430px;

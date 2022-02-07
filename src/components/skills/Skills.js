@@ -9,7 +9,13 @@ import {
   FaNodeJs,
   FaFigma,
 } from "react-icons/fa";
-import { SiExpress, SiTypescript, SiFirebase, SiRedux } from "react-icons/si";
+import {
+  SiExpress,
+  SiTypescript,
+  SiFirebase,
+  SiRedux,
+  SiSocketdotio,
+} from "react-icons/si";
 
 function Skills() {
   return (
@@ -35,6 +41,7 @@ function Skills() {
         <SiRedux className="icon-skills-9" />
         <FaNodeJs className="icon-skills-10" />
         <FaFigma className="icon-skills-11" />
+        <SiSocketdotio className="icon-skills-12" />
       </div>
     </section>
   );
