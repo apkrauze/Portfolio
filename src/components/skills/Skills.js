@@ -15,6 +15,7 @@ import {
   SiFirebase,
   SiRedux,
   SiSocketdotio,
+  SiMongodb,
 } from "react-icons/si";
 
 function Skills() {
@@ -42,6 +43,7 @@ function Skills() {
         <FaNodeJs className="icon-skills-10" />
         <FaFigma className="icon-skills-11" />
         <SiSocketdotio className="icon-skills-12" />
+        <SiMongodb className="icon-skills-13" />
       </div>
     </section>
   );

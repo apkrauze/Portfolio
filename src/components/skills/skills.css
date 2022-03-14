@@ -19,7 +19,8 @@ div .icon-skills-1,
 .icon-skills-9,
 .icon-skills-10,
 .icon-skills-11,
-.icon-skills-12 {
+.icon-skills-12,
+.icon-skills-13 {
   color: var(--clr-primary-3);
   width: 80px;
   height: 60px;
@@ -44,7 +45,7 @@ div .icon-skills-12 {
     margin-left: 19vw;
   }
 
-  div .icon-skills-12 {
+  div .icon-skills-13 {
     margin-right: 19vw;
   }
 }
@@ -58,7 +59,7 @@ div .icon-skills-12 {
     margin-left: 0vw;
   }
 
-  div .icon-skills-12 {
+  div .icon-skills-13 {
     margin-right: 0vw;
   }
 }
