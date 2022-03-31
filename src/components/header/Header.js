@@ -10,11 +10,6 @@ function Header() {
           Hi,<br></br> I'm Artur
         </h1>
         <div className="header-underline"></div>
-        {/* <img
-          className="header-image"
-          src="https://i.postimg.cc/MpmKrYg9/Screenshot-2022-01-19-at-12-55-26.png"
-          alt="profile"
-        ></img> */}
         <span className="quote-icon">
           <FaQuoteRight />
         </span>

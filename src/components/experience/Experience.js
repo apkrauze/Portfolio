@@ -79,9 +79,6 @@ function Experience() {
           <img src={CVIcon} alt="cv" className="icon-3"></img>
         </a>
       </div>
-      {/* <button type="button" className="btn">
-        more info
-      </button> */}
     </section>
   );
 }
