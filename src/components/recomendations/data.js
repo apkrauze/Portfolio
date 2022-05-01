@@ -9,7 +9,7 @@ const recomendations = [
   {
     id: 2,
     name: "andjelija kaludjerovic",
-    job: "fullstack developer",
+    job: "frontend developer at Lendo",
     image: "https://i.postimg.cc/V6DDy4xT/Andjelija.jpg",
     text: "Artur is well organized, concise and someone you can always count on! What really impressed me was Artur’s out-of-the-box thinking, discipline, and agility in working with our team on a daily basis. Having enjoyed our collaboration very much, I can only look forward to us working together again.",
   },
