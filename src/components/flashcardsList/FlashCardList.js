@@ -7,7 +7,7 @@ function FlashCardList({ flashcards }) {
   return (
     <section className="section">
       <div className="title" data-aos="zoom-in-up" data-aos-easing="linear">
-        <h2>my projects</h2>
+        <h2>some of my projects</h2>
         <p>
           <VscCode className="job-icon-projects"></VscCode>click to get more
           info

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import people from "./data";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./recomendation.css";
 // animation sliders on underline
 import Aos from "aos";
@@ -35,13 +35,16 @@ const Recomendations = () => {
       return checkNumber(newIndex);
     });
   };
-  const randomPerson = () => {
-    let randomNumber = Math.floor(Math.random() * people.length);
-    if (randomNumber === index) {
-      randomNumber = index + 1;
-    }
-    setIndex(checkNumber(randomNumber));
-  };
+
+  // Function to get a random person after click - might be implemented later
+
+  // const randomPerson = () => {
+  //   let randomNumber = Math.floor(Math.random() * people.length);
+  //   if (randomNumber === index) {
+  //     randomNumber = index + 1;
+  //   }
+  //   setIndex(checkNumber(randomNumber));
+  // };
 
   return (
     <main data-aos="zoom-in-up" data-aos-easing="linear">

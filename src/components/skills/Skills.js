@@ -16,6 +16,8 @@ import {
   SiRedux,
   SiSocketdotio,
   SiMongodb,
+  SiChakraui,
+  SiStorybook,
 } from "react-icons/si";
 
 function Skills() {
@@ -44,6 +46,8 @@ function Skills() {
         <FaFigma className="icon-skills-11" />
         <SiSocketdotio className="icon-skills-12" />
         <SiMongodb className="icon-skills-13" />
+        <SiChakraui className="icon-skills-14" />
+        <SiStorybook className="icon-skills-15" />
       </div>
     </section>
   );

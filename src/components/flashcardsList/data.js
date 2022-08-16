@@ -1,12 +1,11 @@
 const SAMPLE_FLASHCARDS = [
   {
     id: 1,
-    image:
-      "https://i.postimg.cc/Hkq7HJYG/Screenshot-2022-01-17-at-20-06-05.png",
-    title: "CoverView19",
-    description: "Simple tracker of infected people in the world made with:",
-    options: ["React", "RestAPI", "CSS"],
-    links: "https://coverview19.vercel.app",
+    image: "https://i.postimg.cc/gk4SYSmh/pineapple-gda88057a6-1920.jpg",
+    title: "Rooms",
+    description: "Live chatting app with different rooms, made with:",
+    options: ["React", "Express.js", "Sockets.io"],
+    links: "https://github.com/apkrauze/Rooms-ChattingApp",
   },
   {
     id: 2,
@@ -24,14 +23,6 @@ const SAMPLE_FLASHCARDS = [
     description: "AW final project and upcoming killer of Instagram made with:",
     options: ["React", "Firebase/Firestore", "CSS"],
     links: "https://visualizar-9141e.web.app",
-  },
-  {
-    id: 4,
-    image: "https://i.postimg.cc/gk4SYSmh/pineapple-gda88057a6-1920.jpg",
-    title: "Rooms",
-    description: "Live chatting app with different rooms, made with:",
-    options: ["React", "Express.js", "Sockets.io"],
-    links: "https://github.com/apkrauze/Rooms-ChattingApp",
   },
 ];
 
